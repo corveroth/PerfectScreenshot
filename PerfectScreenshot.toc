@@ -1,0 +1,10 @@
+## Interface: 50400
+## Title: PerfectScreenshot
+## Notes: New screenshot keybinds to automatically hide the interface during the shot.
+## Author: corveroth@gmail.com
+## Version: 2
+## SavedVariables: PerfectScreenshotDB
+## OptionalDeps: Ace3
+
+embeds.xml
+PerfectScreenshot.lua

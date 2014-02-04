@@ -1,0 +1,21 @@
+license-output: LICENSE.txt
+
+externals:
+    libs/AceAddon-3.0
+        url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceAddon-3.0
+    libs/AceConsole-3.0
+        url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceConsole-3.0
+    libs/AceDB-3.0
+        url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceDB-3.0
+    libs/AceEvent-3.0
+        url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceEvent-3.0
+    libs/AceLocale-3.0
+        url: svn://svn.wowace.com/wow/ace3/mainline/trunk/AceLocale-3.0
+    libs/LibStub:
+        url: svn://svn.wowace.com/wow/libstub/mainline/trunk
+    libs/CallbackHandler-1.0:
+        url: svn://svn.wowace.com/wow/callbackhandler/mainline/trunk/CallbackHandler-1.0
+
+ignore:
+    - .gitignore
+    - .git

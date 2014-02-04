@@ -1,0 +1,11 @@
+<Bindings>
+	<Binding name="PERFECTSCREENSHOT_WORLD" header="PERFECTSCREENSHOT_HEADER" default="SHIFT-PRINTSCREEN">
+		PerfectScreenshot:TakeShot(1, 1, nil);
+	</Binding>
+	<Binding name="PERFECTSCREENSHOT_NAMES" header="PERFECTSCREENSHOT_HEADER" default="CTRL-PRINTSCREEN">
+		PerfectScreenshot:TakeShot(1, nil, nil);
+	</Binding>
+	<Binding name="PERFECTSCREENSHOT_TIMED" header="PERFECTSCREENSHOT_HEADER" default="ALT-PRINTSCREEN">
+		PerfectScreenshot:TakeShot(1, 1, 1);
+	</Binding>
+</Bindings>
